@@ -10,3 +10,20 @@ end
 def input_to_index(input)
   input.to_i-1
 end
+
+def move(board, index, token = "X")
+  #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  #move(board, 0)
+  #move(board, 4)
+  #move(board, 8)
+
+  #expect(board).to eq(["X", " ", " ", " ", "X", " ", " ", " ", "X"])
+    board[index] = token
+end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+move(board, 0,"X")
+move(board, 8,"X")
+
+display_board
