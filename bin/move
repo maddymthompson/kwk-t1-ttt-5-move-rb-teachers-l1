@@ -14,4 +14,6 @@ input = gets.strip
 
 input_to_index(input)
 
+raise input.inspect
+
 move(board, input)
