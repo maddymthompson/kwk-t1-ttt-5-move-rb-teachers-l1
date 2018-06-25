@@ -24,6 +24,6 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 move(board, 0,"X")
-move(board, 8,"X")
+move(board, 8,"0")
 
 display_board(board)
